@@ -9,7 +9,7 @@ const App = () => {
 
   {/* const cachedFn = useCallback(fn, dependencies) */}
   const passwordGenerator = useCallback(() => {
-    let str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
     const number = '0123456789';
     const symbol = '!@#$%^&*()_+[]{}|;:,.<>?';
 
